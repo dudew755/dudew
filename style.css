@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #A3A1D4;
+    font-family: "Montserrat", "sans-serif";
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.logo {
+    font-size: 25px;
+    font-weight:600;
+    
+}
+
+.bar a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+          
+}
+
+.bar a:hover {
+    border-bottom: 1.5px solid rgb(109, 109, 168);  
+    transition: 2s;  
+}
+
+.one {
+    width: 100%;
+    height: 80vh;
+    background-color:rgba(255, 255, 255, 0.3) ;
+    margin: 0 0 50px 0;
+}
+
+.one-text {
+    width: 100%;
+    animation-name: signs;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes signs {
+    from {transform: translate(0, 0);}
+    to {transform: translate(0, 180px);}
+}
+
+.one-text p {
+    font-size: 300px;
+    text-align: center;
+}
+
+.yellow {
+    color: rgb(226, 226, 84);
+}
+
+.green {
+    color: rgb(120, 202, 120);
+}
+
+.red {
+    color: rgb(216, 67, 67);
+}
+
+.two {
+    width: 100%;
+    height: 18vh;
+    background-color:rgba(255, 255, 255, 0.3) ;
+    margin: 0 0 50px 0;
+}
+
+.about p:first-child {
+    text-align: center;
+    font-size: 50px;
+    padding: 15px
+}
+
+.about p:last-child {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    word-spacing: 1px;
+}
+
+.three {
+    width: 100%;
+    height: 62vh;
+    background-color:rgba(255, 255, 255, 0.3) ;
+    margin: 0 0 50px 0;
+}
+
+.three p {
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.logo-container {
+    width: 80%;
+    margin: 0px auto 0px auto;
+}
+
+.logo-container img {
+    
+    width: 100%; 
+    object-fit: cover;
+    object-position: center;
+}
+
+.four {
+    width: 100%;
+    height: 10vh;
+    background-color:rgba(255, 255, 255, 0.3) ;
+    margin: 0 0 30px 0;
+}
+
+.contactme p {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.social {
+    width: 34%;
+    margin: 0 auto 0 auto;
+}
+.social a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    
+}
+
+.social i {
+    color: #00b9ff;
+}
+
+.designed {
+    text-align: center;
+}
